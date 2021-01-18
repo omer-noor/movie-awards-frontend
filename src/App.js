@@ -9,6 +9,12 @@ import Search from "./components/Search"
 function reducer(movies, action) {
     switch (action.type) {
         case "add":
+            for (let i = 0; i < movies.length; i++) {
+                if (action.payload.name.toString()===movies[i].name.toString()){
+                    Materialize.toast({html: 'Movie is already nominated!', displayLength: 4000, classes: 'red'})
+                    return movies
+                }
+            }
             if (movies.length === 4) {
                 Materialize.toast({html: 'You have nominated 5 movies!', displayLength: 4000, classes: 'green'})
                 return [...movies, action.payload]
