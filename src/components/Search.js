@@ -40,7 +40,7 @@ class Search extends Component {
         console.log(val + "   Search")
         this.setState({loading: true});
         const res = await axios(
-            `http://www.omdbapi.com/?apikey=236aabb&s=${val}&type=movie`
+            `https://www.omdbapi.com/?apikey=236aabb&s=${val}&type=movie`
         );
         const movies = await res.data;
 
