@@ -1,0 +1,71 @@
+.s5ths,
+.m5ths,
+.l5ths,
+.xl5ths {
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s5ths {
+    width: 20%;
+}
+
+@media only screen and (min-width: 601px) {
+    .row .col.m5ths {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .row .col.l5ths {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .row .col.xl5ths {
+        width: 20%;
+    }
+}
+
+.nomination {
+    height: 200%;
+    margin: 10px;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    background: #202020;
+    scroll-behavior: smooth;
+}
+
+.searchImage {
+    height: 80px;
+}
+
+.logo {
+    height: 100px;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.border {
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: rgba(149, 188, 70, .7);
+    margin-top: 25px;
+    margin-bottom: 60px;
+
+}
+
+.clear {
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #95bc46;
+}
