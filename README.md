@@ -1,8 +1,4 @@
-# The Shoppies
-
-https://onoor-theshoppies.herokuapp.com/
-
-An application created for the Shopify front-end intern challenge.
+# Movie Awards
 
 ## Available Scripts
 
